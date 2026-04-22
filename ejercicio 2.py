@@ -14,7 +14,7 @@ else:
             for linea in archivo:
                 # Si la palabra está en la línea, la imprimimos
                 if mundo in linea:
-                    # strip() elimina el salto de línea sobrante al imprimir
+
                     print(linea.strip())
     except FileNotFoundError:
         print(f"Error: El archivo '{nombre_archivo}' no existe.")
